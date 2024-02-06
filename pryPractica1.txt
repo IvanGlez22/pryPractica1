@@ -1,0 +1,72 @@
+echo "# pryPractica1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/IvanGlez22/pryPractica1.git
+git push -u origin main
+
+
+
+Microsoft Windows [Versión 10.0.19045.3930]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\DELL\Documents\Visual Studio 2017\ProyectosGithub>npm init -y
+Wrote to C:\Users\DELL\Documents\Visual Studio 2017\ProyectosGithub\package.json:
+
+{
+  "name": "proyectosgithub",
+  "version": "1.0.0",
+  "description": "\"# pryPractica1\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+C:\Users\DELL\Documents\Visual Studio 2017\ProyectosGithub>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+git repository: https://github.com/IvanGlez22/pryPractica1.git
+author: IvanGlez
+license: (ISC)
+About to write to C:\Users\DELL\Documents\Visual Studio 2017\ProyectosGithub\package.json:
+
+{
+  "name": "proyectosgithub",
+  "version": "1.0.0",
+  "description": "\"# pryPractica1\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "IvanGlez",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanGlez22/pryPractica1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IvanGlez22/pryPractica1/issues"
+  },
+  "homepage": "https://github.com/IvanGlez22/pryPractica1#readme"
+}
+
+
+Is this OK? (yes) yes
+
+C:\Users\DELL\Documents\Visual Studio 2017\ProyectosGithub>
