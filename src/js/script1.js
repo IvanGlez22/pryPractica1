@@ -152,6 +152,8 @@ let Current_user_name;
 
 */
 
+
+/*
 let age = 19; 
 let base = 4.5;
 let distanciaTierra_sol = 345555555;
@@ -196,3 +198,63 @@ alert(`hello ${1}` ); //?
 alert( `hello ${"name"} `);
 
 alert(`hello ${name2}`);
+*/
+
+/*
+const date = new Date();
+
+let nameUser = prompt("Ingresa tu nombre");
+let numControl = prompt("Ingresa tu numero de control: ");
+let birthday = prompt("Ingresa tu año de nacimiento: ");
+
+
+const age = date.getFullYear() - birthday;
+
+console.log(`los datos del alumno son: \n
+nombre: ${nameUser}
+numero de control ${numControl} \n 
+edad: ${age}`);
+
+*/
+
+
+//calcular el perimetro de un rectangulo
+
+/*
+
+const weight = prompt("Ingresa el ancho del reptangulo: ");
+const height = prompt("Ingresa la altura del reptangulo");
+
+
+const perimetroRectngle = (2 * weight + 2 *height);
+
+console.log('El perimetro es: '+perimetroRectngle);
+
+console.log('El año de nacimiento es: ', birthDay());
+*/
+
+
+
+//const gender = 'Masculino';
+//console.log(gender.charAt(0));
+
+/*
+let gender = prompt("Ingresa tu genero: ").charAt(0);
+console.log(gender);
+
+*/
+
+//clave: valor datos JSON
+
+
+/*
+let jsonString = '{"Marca": "LG","Modelo":"Zplus","Ram":12,"Procesador":"SnapDragon 8200"}';
+let cadenaNoparseada = jsonString;
+console.log(`Cadena no parseada:${cadenaNoparseada}`);
+
+let StringParseado = JSON.parse(jsonString);
+console.log(`cadena parseada:${StringParseado}`);
+//
+
+*/
+
